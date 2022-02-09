@@ -1,2 +1,34 @@
 Introduction:
 This project is used to estimate the bills and predict the bill of next month by taking input.
+
+Requirements includes Low level requirements and high level requirements.
+Low level requirements :
+Calculating the bill in rural areas
+Calculating the bill in urban areas
+Calculating the total load at domestic places
+Calculating the total unit consumed at domestic places
+Calculating the total load at Commercial places
+Calculating the total unit consumed at comercial places
+
+High level requirements:
+ calculating the bill at Urban areas if(units<35)	
+ calculating the bill at Urban areas if(units>35 && units <100)	
+ calculating the bill at Urban areas if(units>101 && units <250)	
+ calculating the bill at Urban areas if(units<250)	
+ calculating the bill at Rural areas if(units<35)	
+ calculating the bill at Rural areas if(units>35 && units <100)	
+ calculating the bill at Rural areas if(units>101 && units <250)	
+ calculating the bill at Rural areas if(units<250)	
+
+ SWOT Analysis:
+ Strength: User friendly
+ Weakness: Cost 
+ Opportunities: Digital world adapts digital solutions
+ Threats: Similar products are there in market
+
+ 4W and 1H:
+ Who: Student
+ What: Electric bill Estimator
+ Where: Houses,Shops,schools,institutions
+ When: while estimating budget 
+ How: Using the inputs or the required data
