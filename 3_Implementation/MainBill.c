@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+/*#include <conio.h>*/
 #include <string.h>
-#include <Windows.h>
+/*#include <Windows.h>*/
 #include "MainBill.h"
 #include "BillEstimator.h"
 void Urban();
@@ -10,7 +10,7 @@ void Rural();
 void Commercial();
 void main()
 { 
-	details();
+	char details();
 	int option;
 	do
 	{
@@ -39,6 +39,6 @@ void main()
 			printf("SORRY INVALID CHOICE!\n");
 			printf("PLEASE CHOOSE FROM 1 or 2\n");
 		}
-		getch();
+		getc;
 	} while (option != 4);
 }

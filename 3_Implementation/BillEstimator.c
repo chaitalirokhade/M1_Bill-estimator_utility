@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #include<string.h>
-#include<Windows.h>
 #include"MainBill.h"
 
 void details()
@@ -20,7 +18,7 @@ void details()
     printf("Enter the permanent address :\n");
     scanf("%s", B.address);
     printf("Enter the phone number : \n");
-    scanf("%s", B.phonenumber);
+    scanf("%ls", B.phonenumber);
 }
 
 void Urban()
