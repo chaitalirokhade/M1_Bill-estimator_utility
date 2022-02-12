@@ -25,15 +25,15 @@ void Urban()
 {
     int amount=0;
     B.unitsconsumed;
-    if(B.unitsconsumed <=30 && B.unitsconsumed >= 0)
+    if(B.unitsconsumed <=20 && B.unitsconsumed >= 0)
     {
         amount = B.unitsconsumed * 4.15; //4.15 rupees
     }
-    else if(B.unitsconsumed >= 31 && B.unitsconsumed <= 100)
+    else if(B.unitsconsumed >= 21 && B.unitsconsumed <= 70)
     {
         amount = B.unitsconsumed * 5.40;
     }
-    else if(B.unitsconsumed >= 101 && B.unitsconsumed <= 200)
+    else if(B.unitsconsumed >= 71 && B.unitsconsumed <= 100)
     {
         amount = B.unitsconsumed * 6.95;
     }
@@ -52,15 +52,15 @@ void Rural()
 {
     int amount=0;
     B.unitsconsumed;
-    if(B.unitsconsumed <=30 && B.unitsconsumed >= 0)
+    if(B.unitsconsumed <=20 && B.unitsconsumed >= 0)
     {
         amount = B.unitsconsumed * 4.25; //4.25  rupees
     }
-    else if(B.unitsconsumed >= 31 && B.unitsconsumed <= 100)
+    else if(B.unitsconsumed >= 21 && B.unitsconsumed <= 70)
     {
         amount = B.unitsconsumed * 5.50;
     }
-    else if(B.unitsconsumed >= 101 && B.unitsconsumed <= 200)
+    else if(B.unitsconsumed >= 71 && B.unitsconsumed <= 100)
     {
         amount = B.unitsconsumed * 6.98;
     }
@@ -78,15 +78,15 @@ void Commercial()
 {
     int amount=0;
     B.unitsconsumed;
-    if(B.unitsconsumed <=30 && B.unitsconsumed >= 0)
+    if(B.unitsconsumed <=20 && B.unitsconsumed >= 0)
     {
         amount = B.unitsconsumed * 6.15; //6.15 rupees
     }
-    else if(B.unitsconsumed >= 31 && B.unitsconsumed <= 100)
+    else if(B.unitsconsumed >= 21 && B.unitsconsumed <= 70)
     {
         amount = B.unitsconsumed * 8.40;
     }
-    else if(B.unitsconsumed >= 101 && B.unitsconsumed <= 200)
+    else if(B.unitsconsumed >= 71 && B.unitsconsumed <= 100)
     {
         amount = B.unitsconsumed * 10.95;
     }

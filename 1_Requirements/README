@@ -1,6 +1,18 @@
 Introduction:
 This project is used to estimate the bills and predict the bill of next month by taking input.
 
+Research:
+The Electricity bill estimator helps in
+1) Understand various components of your electricity bills.
+
+2) Understand how much you are paying per unit (1 kWh) of electricity bill.
+
+3) Understand how much you spend on various appliances like lights, air conditioner, refrigerator,  tube light, computer, set-top box, fan, etc.
+
+[https://www.bijlibachao.com/electricity-bill/online-electricity-bill-calculator-for-all-states-in-india.html#:~:text=and%20enter%20it.-,This%20calculator%20will%20help%20you%3A,top%20box%2C%20fan%2C%20etc.]
+
+
+
 Requirements includes Low level requirements and high level requirements.
 Low level requirements :
 Calculating the bill in rural areas
@@ -11,14 +23,14 @@ Calculating the total load at Commercial places
 Calculating the total unit consumed at comercial places
 
 High level requirements:
- calculating the bill at Urban areas if(units<35)	
- calculating the bill at Urban areas if(units>35 && units <100)	
- calculating the bill at Urban areas if(units>101 && units <250)	
- calculating the bill at Urban areas if(units<250)	
- calculating the bill at Rural areas if(units<35)	
- calculating the bill at Rural areas if(units>35 && units <100)	
- calculating the bill at Rural areas if(units>101 && units <250)	
- calculating the bill at Rural areas if(units<250)	
+ calculating the bill at Urban areas if(units<20)	
+ calculating the bill at Urban areas if(units>21 && units <70)	
+ calculating the bill at Urban areas if(units>71 && units <100)	
+ calculating the bill at Urban areas if(units<100)	
+ calculating the bill at Rural areas if(units<20)	
+ calculating the bill at Rural areas if(units>21 && units <70)	
+ calculating the bill at Rural areas if(units>71 && units <100)	
+ calculating the bill at Rural areas if(units<100)	
 
  SWOT Analysis:
  Strength: User friendly
@@ -32,3 +44,5 @@ High level requirements:
  Where: Houses,Shops,schools,institutions
  When: while estimating budget 
  How: Using the inputs or the required data
+
+ 
