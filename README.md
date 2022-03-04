@@ -14,3 +14,5 @@
 
 
 [![C/C++ CI](https://github.com/chaitalirokhade/M1_Bill-estimator_utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/chaitalirokhade/M1_Bill-estimator_utility/actions/workflows/c-cpp.yml)
+
+[![Cppcheck](https://github.com/chaitalirokhade/M1_Bill-estimator_utility/actions/workflows/static.yml/badge.svg)](https://github.com/chaitalirokhade/M1_Bill-estimator_utility/actions/workflows/static.yml)
