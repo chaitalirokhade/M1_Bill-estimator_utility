@@ -1,3 +1,13 @@
+/**
+ * @file BillEstimator.c
+ * @author Chaitali Rokhade (rokhadechaitali@gmail.com)
+ * @brief Estimator to predict the bill 
+ * @version 0.1
+ * @date 2022-03-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
